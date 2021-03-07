@@ -18,7 +18,7 @@ public class ScriptBase {
     }
     @Test
     public void init2(){
-        System.setProperty("webdriver.gecko.driver","/Users/jabinuttora/IdeaProjects/Javaprtoject2/drivers/geckodriver");
+        System.setProperty("webdriver.gecko.driver","./drivers/geckodriver");
         WebDriver driver= new FirefoxDriver();
         driver.get("http://automationpractice.com/index.php");
         driver.quit();
