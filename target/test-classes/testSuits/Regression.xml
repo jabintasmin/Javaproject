@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+    <parameter name="browser" value="chrome"></parameter>
+    <test name="Valid login Test">
+        <classes>
+            <class name="validLoginTest.LoginTest">
+                <methods>
+                    <include name="verifySignInButtonDisplay"/>
+                </methods>
+
+            </class>
+
+
+        </classes>
+
+    </test>
+    <parameter name="browser" value="firefox"></parameter>
+    <test name="Valid login Test1">
+        <classes>
+            <class name="validLoginTest.LoginTest">
+                <methods>
+                    <include name="verifySignInButtonDisplay"/>
+                </methods>
+
+            </class>
+
+
+        </classes>
+
+    </test>
+
+</suite>
