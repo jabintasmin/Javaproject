@@ -15,19 +15,30 @@
         </classes>
 
     </test>
-    <parameter name="browser" value="firefox"></parameter>
-    <test name="Valid login Test1">
-        <classes>
-            <class name="validLoginTest.LoginTest">
-                <methods>
-                    <include name="verifySignInButtonDisplay"/>
-                </methods>
 
-            </class>
+    <test
+ verbose="2" preserve-order="true" name="over view page display">
+<classes>
+    <class name="overviewPage.OverviewDisplayTest">
+        <methods>
+            <include name="verifySpecialTextDisplayed"/>
+            <include name="newProductsTestDisplayed"/>
+            <include name="bestSellersTextDisplayed"/>
+            <include name="ourStoresTextDisplayed"/>
+            <include name="contactUsTextDisplayed"/>
+            <include name="termsAndConditionTextDisplayed"/>
+            <include name="aboutUsTextDisplayed"/>
+            <include name="siteMapTextDisplayed"/>
+            <include name="myOrdersTextDisplayed"/>
+            <include name="myCreditSlipsTextDisplayed"/>
+        </methods>
+    </class>
 
 
-        </classes>
 
+
+</classes>
     </test>
+
 
 </suite>
