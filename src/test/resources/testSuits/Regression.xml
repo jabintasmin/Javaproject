@@ -2,11 +2,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Regression">
     <parameter name="browser" value="chrome"></parameter>
-    <test name="Valid login Test">
+    <test name="Contact Us Test">
         <classes>
-            <class name="validLoginTest.LoginTest">
+            <class name="contactUsTest.ContactUsClass">
                 <methods>
-                    <include name="verifySignInButtonDisplay"/>
+                    <include name="verifyContactUs"/>
+                    <include name="verifyContactUs1"/>
+                    <include name="verifyContactUs2"/>
+                    <include name="verifyContactUs3"/>
+                    <include name="verifyContactUs4"/>
+
                 </methods>
 
             </class>
@@ -16,29 +21,29 @@
 
     </test>
 
-    <test
- verbose="2" preserve-order="true" name="over view page display">
-<classes>
-    <class name="overviewPage.OverviewDisplayTest">
-        <methods>
-            <include name="verifySpecialTextDisplayed"/>
-            <include name="newProductsTestDisplayed"/>
-            <include name="bestSellersTextDisplayed"/>
-            <include name="ourStoresTextDisplayed"/>
-            <include name="contactUsTextDisplayed"/>
-            <include name="termsAndConditionTextDisplayed"/>
-            <include name="aboutUsTextDisplayed"/>
-            <include name="siteMapTextDisplayed"/>
-            <include name="myOrdersTextDisplayed"/>
-            <include name="myCreditSlipsTextDisplayed"/>
-        </methods>
-    </class>
+<!--    <test-->
+<!-- verbose="2" preserve-order="true" name="over view page display">-->
+<!--<classes>-->
+<!--    <class name="overviewPage.OverviewDisplayTest">-->
+<!--        <methods>-->
+<!--            <include name="verifySpecialTextDisplayed"/>-->
+<!--            <include name="newProductsTestDisplayed"/>-->
+<!--            <include name="bestSellersTextDisplayed"/>-->
+<!--            <include name="ourStoresTextDisplayed"/>-->
+<!--            <include name="contactUsTextDisplayed"/>-->
+<!--            <include name="termsAndConditionTextDisplayed"/>-->
+<!--            <include name="aboutUsTextDisplayed"/>-->
+<!--            <include name="siteMapTextDisplayed"/>-->
+<!--            <include name="myOrdersTextDisplayed"/>-->
+<!--            <include name="myCreditSlipsTextDisplayed"/>-->
+<!--        </methods>-->
+<!--    </class>-->
 
 
 
 
-</classes>
-    </test>
+<!--</classes>-->
+<!--    </test>-->
 
 
 </suite>

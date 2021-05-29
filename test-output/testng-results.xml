@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="5597" started-at="2021-05-29T04:29:11Z" finished-at="2021-05-29T04:29:17Z">
+    <groups>
+    </groups>
+    <test name="Contact Us Test" duration-ms="5597" started-at="2021-05-29T04:29:11Z" finished-at="2021-05-29T04:29:17Z">
+      <class name="contactUsTest.ContactUsClass">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:contactUsTest.ContactUsClass@17550481]" name="init" is-config="true" duration-ms="4144" started-at="2021-05-29T00:29:11Z" finished-at="2021-05-29T00:29:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyContactUs()[pri:0, instance:contactUsTest.ContactUsClass@17550481]" name="verifyContactUs" duration-ms="1018" started-at="2021-05-29T00:29:16Z" finished-at="2021-05-29T00:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUs -->
+        <test-method status="PASS" signature="verifyContactUs1()[pri:0, instance:contactUsTest.ContactUsClass@17550481]" name="verifyContactUs1" duration-ms="117" started-at="2021-05-29T00:29:17Z" finished-at="2021-05-29T00:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUs1 -->
+        <test-method status="PASS" signature="verifyContactUs2()[pri:0, instance:contactUsTest.ContactUsClass@17550481]" name="verifyContactUs2" duration-ms="169" started-at="2021-05-29T00:29:17Z" finished-at="2021-05-29T00:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUs2 -->
+        <test-method status="PASS" signature="verifyContactUs3()[pri:0, instance:contactUsTest.ContactUsClass@17550481]" name="verifyContactUs3" duration-ms="48" started-at="2021-05-29T00:29:17Z" finished-at="2021-05-29T00:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUs3 -->
+        <test-method status="PASS" signature="verifyContactUs4()[pri:0, instance:contactUsTest.ContactUsClass@17550481]" name="verifyContactUs4" duration-ms="75" started-at="2021-05-29T00:29:17Z" finished-at="2021-05-29T00:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUs4 -->
+      </class> <!-- contactUsTest.ContactUsClass -->
+    </test> <!-- Contact Us Test -->
+  </suite> <!-- Regression -->
+</testng-results>
