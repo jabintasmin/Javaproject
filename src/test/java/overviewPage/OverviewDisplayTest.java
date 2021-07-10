@@ -56,4 +56,20 @@ public class OverviewDisplayTest extends ScriptBase {
         overviewPageController= new OverviewPageController(driver);
         overviewPageController.overviewPageInfo(driver,"My credit slips");
     }
+    @Test
+    public void topsButtonDisplay() throws InterruptedException {
+        overviewPageController=new OverviewPageController(driver);
+        overviewPageController.womenCatalog(driver);
+    }
+    @Test
+    public void casualDressesDisplay() throws InterruptedException {
+        overviewPageController = new OverviewPageController(driver);
+        overviewPageController.dressCatalog(driver);
+    }
+    @Test
+    public void catalogDisplay(){
+        overviewPageController =  new OverviewPageController(driver);
+        overviewPageController.tShirtCatalog(driver);
+    }
+
 }

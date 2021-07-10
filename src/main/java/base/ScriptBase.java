@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
 public class ScriptBase {
-    public WebDriver driver;
+    public  static WebDriver driver;
 
 
     @Parameters ("browser")

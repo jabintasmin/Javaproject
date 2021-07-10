@@ -2,14 +2,22 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
   <parameter name="browser" value="chrome"/>
-  <test name="Contact Us Test(failed)">
+  <listeners>
+    <listener class-name="testng_listener.Listener"/>
+  </listeners>
+  <test name="Overview page Test(failed)">
     <classes>
-      <class name="contactUsTest.ContactUsClass">
+      <class name="searchTest.ValidProductSearch">
         <methods>
           <include name="init"/>
-          <include name="verifyContactUs3"/>
         </methods>
-      </class> <!-- contactUsTest.ContactUsClass -->
+      </class> <!-- searchTest.ValidProductSearch -->
+      <class name="overviewPage.OverviewDisplayTest">
+        <methods>
+          <include name="init"/>
+          <include name="catalogDisplay"/>
+        </methods>
+      </class> <!-- overviewPage.OverviewDisplayTest -->
     </classes>
-  </test> <!-- Contact Us Test(failed) -->
+  </test> <!-- Overview page Test(failed) -->
 </suite> <!-- Failed suite [Regression] -->

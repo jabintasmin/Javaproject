@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Regression">
+    <listeners>
+        <listener class-name="testng_listener.Listener"></listener>
+    </listeners>
     <parameter name="browser" value="chrome"></parameter>
-    <test name="Contact Us Test">
+    <test name="Overview page Test">
         <classes>
-            <class name="contactUsTest.ContactUsClass">
+            <class name="overviewPage.OverviewDisplayTest">
                 <methods>
-                    <include name="verifyContactUs"/>
-                    <include name="verifyContactUs1"/>
-                    <include name="verifyContactUs2"/>
-                    <include name="verifyContactUs3"/>
-                    <include name="verifyContactUs4"/>
+
+
+                    <include name="topsButtonDisplay"/>
+                    <include name="casualDressesDisplay"/>
+                    <include name="catalogDisplay"/>
+
+
 
                 </methods>
 
@@ -20,6 +25,19 @@
         </classes>
 
     </test>
+    <test
+    verbose="2" preserve-order="true" name="Search display">
+        <classes>
+            <class name="searchTest.ValidProductSearch">
+                <methods>
+                    <include name="verifySearchByDress"/>
+                    <include name="verifySearchByHat"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+
 
 <!--    <test-->
 <!-- verbose="2" preserve-order="true" name="over view page display">-->

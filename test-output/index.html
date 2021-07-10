@@ -53,7 +53,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Regression">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -101,27 +101,27 @@
                     <div class="method-list-content passed suite-Regression">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="contactUsTest.ContactUsClass" hash-for-method="verifyContactUs">verifyContactUs</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="overviewPage.OverviewDisplayTest" hash-for-method="casualDressesDisplay">casualDressesDisplay</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="contactUsTest.ContactUsClass" hash-for-method="verifyContactUs1">verifyContactUs1</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="overviewPage.OverviewDisplayTest" hash-for-method="catalogDisplay">catalogDisplay</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="contactUsTest.ContactUsClass" hash-for-method="verifyContactUs2">verifyContactUs2</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="overviewPage.OverviewDisplayTest" hash-for-method="topsButtonDisplay">topsButtonDisplay</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="contactUsTest.ContactUsClass" hash-for-method="verifyContactUs3">verifyContactUs3</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="searchTest.ValidProductSearch" hash-for-method="verifySearchByDress">verifySearchByDress</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="contactUsTest.ContactUsClass" hash-for-method="verifyContactUs4">verifyContactUs4</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression" title="searchTest.ValidProductSearch" hash-for-method="verifySearchByHat">verifySearchByHat</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Regression -->
@@ -139,42 +139,50 @@
           <div class="suite-Regression-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">contactUsTest.ContactUsClass</span>
+              <span class="class-name">searchTest.ValidProductSearch</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyContactUs">
-                  </a> <!-- verifyContactUs -->
-                  <span class="method-name">verifyContactUs</span>
+                  <a name="verifySearchByDress">
+                  </a> <!-- verifySearchByDress -->
+                  <span class="method-name">verifySearchByDress</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyContactUs1">
-                  </a> <!-- verifyContactUs1 -->
-                  <span class="method-name">verifyContactUs1</span>
+                  <a name="verifySearchByHat">
+                  </a> <!-- verifySearchByHat -->
+                  <span class="method-name">verifySearchByHat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression-class-passed -->
+          <div class="suite-Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">overviewPage.OverviewDisplayTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="casualDressesDisplay">
+                  </a> <!-- casualDressesDisplay -->
+                  <span class="method-name">casualDressesDisplay</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyContactUs2">
-                  </a> <!-- verifyContactUs2 -->
-                  <span class="method-name">verifyContactUs2</span>
+                  <a name="catalogDisplay">
+                  </a> <!-- catalogDisplay -->
+                  <span class="method-name">catalogDisplay</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyContactUs3">
-                  </a> <!-- verifyContactUs3 -->
-                  <span class="method-name">verifyContactUs3</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyContactUs4">
-                  </a> <!-- verifyContactUs4 -->
-                  <span class="method-name">verifyContactUs4</span>
+                  <a name="topsButtonDisplay">
+                  </a> <!-- topsButtonDisplay -->
+                  <span class="method-name">topsButtonDisplay</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -190,19 +198,30 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Regression&quot;&gt;
   &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-  &lt;test name=&quot;Contact Us Test&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;testng_listener.Listener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Overview page Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;contactUsTest.ContactUsClass&quot;&gt;
+      &lt;class name=&quot;overviewPage.OverviewDisplayTest&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;verifyContactUs&quot;/&gt;
-          &lt;include name=&quot;verifyContactUs1&quot;/&gt;
-          &lt;include name=&quot;verifyContactUs2&quot;/&gt;
-          &lt;include name=&quot;verifyContactUs3&quot;/&gt;
-          &lt;include name=&quot;verifyContactUs4&quot;/&gt;
+          &lt;include name=&quot;topsButtonDisplay&quot;/&gt;
+          &lt;include name=&quot;casualDressesDisplay&quot;/&gt;
+          &lt;include name=&quot;catalogDisplay&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- contactUsTest.ContactUsClass --&gt;
+      &lt;/class&gt; &lt;!-- overviewPage.OverviewDisplayTest --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Contact Us Test --&gt;
+  &lt;/test&gt; &lt;!-- Overview page Test --&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Search display&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;searchTest.ValidProductSearch&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifySearchByDress&quot;/&gt;
+          &lt;include name=&quot;verifySearchByHat&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- searchTest.ValidProductSearch --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search display --&gt;
 &lt;/suite&gt; &lt;!-- Regression --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -214,7 +233,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Contact Us Test (1 class)</span>
+                <span class="test-name">Overview page Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search display (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -242,30 +264,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyContactUs')
-data.setCell(0, 2, 'contactUsTest.ContactUsClass')
-data.setCell(0, 3, 1018);
+data.setCell(0, 1, 'verifySearchByHat')
+data.setCell(0, 2, 'searchTest.ValidProductSearch')
+data.setCell(0, 3, 6899);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyContactUs2')
-data.setCell(1, 2, 'contactUsTest.ContactUsClass')
-data.setCell(1, 3, 169);
+data.setCell(1, 1, 'verifySearchByDress')
+data.setCell(1, 2, 'searchTest.ValidProductSearch')
+data.setCell(1, 3, 5917);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyContactUs1')
-data.setCell(2, 2, 'contactUsTest.ContactUsClass')
-data.setCell(2, 3, 117);
+data.setCell(2, 1, 'topsButtonDisplay')
+data.setCell(2, 2, 'overviewPage.OverviewDisplayTest')
+data.setCell(2, 3, 2247);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyContactUs4')
-data.setCell(3, 2, 'contactUsTest.ContactUsClass')
-data.setCell(3, 3, 75);
+data.setCell(3, 1, 'casualDressesDisplay')
+data.setCell(3, 2, 'overviewPage.OverviewDisplayTest')
+data.setCell(3, 3, 2169);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyContactUs3')
-data.setCell(4, 2, 'contactUsTest.ContactUsClass')
-data.setCell(4, 3, 48);
+data.setCell(4, 1, 'catalogDisplay')
+data.setCell(4, 2, 'overviewPage.OverviewDisplayTest')
+data.setCell(4, 3, 135);
 window.suiteTableData['Regression']= { tableData: data, tableDiv: 'times-div-Regression'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-Regression">
               </div> <!-- times-div-Regression -->
             </div> <!-- times-div -->
@@ -280,13 +302,31 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Regression" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">10 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">contactUsTest.ContactUsClass</span>
+              <span class="ignored-class-name">overviewPage.OverviewDisplayTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifyContactUs5</span>
+                <span class="ignored-method-name">myOrdersTextDisplayed</span>
+                <br/>
+                <span class="ignored-method-name">newProductsTestDisplayed</span>
+                <br/>
+                <span class="ignored-method-name">siteMapTextDisplayed</span>
+                <br/>
+                <span class="ignored-method-name">ourStoresTextDisplayed</span>
+                <br/>
+                <span class="ignored-method-name">bestSellersTextDisplayed</span>
+                <br/>
+                <span class="ignored-method-name">aboutUsTextDisplayed</span>
+                <br/>
+                <span class="ignored-method-name">myCreditSlipsTextDisplayed</span>
+                <br/>
+                <span class="ignored-method-name">verifySpecialTextDisplayed</span>
+                <br/>
+                <span class="ignored-method-name">termsAndConditionTextDisplayed</span>
+                <br/>
+                <span class="ignored-method-name">contactUsTextDisplayed</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -298,30 +338,37 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">contactUsTest.ContactUsClass</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">overviewPage.OverviewDisplayTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">init(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">verifyContactUs</span>
-                <span class="method-start">4152 ms</span>
+                <span class="method-name">topsButtonDisplay</span>
+                <span class="method-start">11158 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyContactUs1</span>
-                <span class="method-start">5170 ms</span>
+                <span class="method-name">casualDressesDisplay</span>
+                <span class="method-start">13406 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyContactUs2</span>
-                <span class="method-start">5287 ms</span>
+                <span class="method-name">catalogDisplay</span>
+                <span class="method-start">15575 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">searchTest.ValidProductSearch</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">init(chrome)</span>
+                <span class="method-start">15735 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchByDress</span>
+                <span class="method-start">24016 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">verifyContactUs3</span>
-                <span class="method-start">5457 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">verifyContactUs4</span>
-                <span class="method-start">5505 ms</span>
+                <span class="method-name">verifySearchByHat</span>
+                <span class="method-start">29933 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

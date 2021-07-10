@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression" duration-ms="5597" started-at="2021-05-29T04:29:11Z" finished-at="2021-05-29T04:29:17Z">
+  <suite name="Regression" duration-ms="36833" started-at="2021-07-10T13:43:17Z" finished-at="2021-07-10T13:43:54Z">
     <groups>
     </groups>
-    <test name="Contact Us Test" duration-ms="5597" started-at="2021-05-29T04:29:11Z" finished-at="2021-05-29T04:29:17Z">
-      <class name="contactUsTest.ContactUsClass">
-        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:contactUsTest.ContactUsClass@17550481]" name="init" is-config="true" duration-ms="4144" started-at="2021-05-29T00:29:11Z" finished-at="2021-05-29T00:29:16Z">
+    <test name="Overview page Test" duration-ms="15712" started-at="2021-07-10T13:43:17Z" finished-at="2021-07-10T13:43:33Z">
+      <class name="overviewPage.OverviewDisplayTest">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:overviewPage.OverviewDisplayTest@735f7ae5]" name="init" is-config="true" duration-ms="11148" started-at="2021-07-10T09:43:17Z" finished-at="2021-07-10T09:43:28Z">
           <params>
             <param index="0">
               <value>
@@ -18,27 +18,42 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifyContactUs()[pri:0, instance:contactUsTest.ContactUsClass@17550481]" name="verifyContactUs" duration-ms="1018" started-at="2021-05-29T00:29:16Z" finished-at="2021-05-29T00:29:17Z">
+        <test-method status="PASS" signature="topsButtonDisplay()[pri:0, instance:overviewPage.OverviewDisplayTest@735f7ae5]" name="topsButtonDisplay" duration-ms="2247" started-at="2021-07-10T09:43:28Z" finished-at="2021-07-10T09:43:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyContactUs -->
-        <test-method status="PASS" signature="verifyContactUs1()[pri:0, instance:contactUsTest.ContactUsClass@17550481]" name="verifyContactUs1" duration-ms="117" started-at="2021-05-29T00:29:17Z" finished-at="2021-05-29T00:29:17Z">
+        </test-method> <!-- topsButtonDisplay -->
+        <test-method status="PASS" signature="casualDressesDisplay()[pri:0, instance:overviewPage.OverviewDisplayTest@735f7ae5]" name="casualDressesDisplay" duration-ms="2169" started-at="2021-07-10T09:43:31Z" finished-at="2021-07-10T09:43:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyContactUs1 -->
-        <test-method status="PASS" signature="verifyContactUs2()[pri:0, instance:contactUsTest.ContactUsClass@17550481]" name="verifyContactUs2" duration-ms="169" started-at="2021-05-29T00:29:17Z" finished-at="2021-05-29T00:29:17Z">
+        </test-method> <!-- casualDressesDisplay -->
+        <test-method status="PASS" signature="catalogDisplay()[pri:0, instance:overviewPage.OverviewDisplayTest@735f7ae5]" name="catalogDisplay" duration-ms="135" started-at="2021-07-10T09:43:33Z" finished-at="2021-07-10T09:43:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyContactUs2 -->
-        <test-method status="PASS" signature="verifyContactUs3()[pri:0, instance:contactUsTest.ContactUsClass@17550481]" name="verifyContactUs3" duration-ms="48" started-at="2021-05-29T00:29:17Z" finished-at="2021-05-29T00:29:17Z">
+        </test-method> <!-- catalogDisplay -->
+      </class> <!-- overviewPage.OverviewDisplayTest -->
+    </test> <!-- Overview page Test -->
+    <test name="Search display" duration-ms="21097" started-at="2021-07-10T13:43:33Z" finished-at="2021-07-10T13:43:54Z">
+      <class name="searchTest.ValidProductSearch">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:searchTest.ValidProductSearch@1936f0f5]" name="init" is-config="true" duration-ms="8280" started-at="2021-07-10T09:43:33Z" finished-at="2021-07-10T09:43:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyContactUs3 -->
-        <test-method status="PASS" signature="verifyContactUs4()[pri:0, instance:contactUsTest.ContactUsClass@17550481]" name="verifyContactUs4" duration-ms="75" started-at="2021-05-29T00:29:17Z" finished-at="2021-05-29T00:29:17Z">
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifySearchByDress()[pri:0, instance:searchTest.ValidProductSearch@1936f0f5]" name="verifySearchByDress" duration-ms="5917" started-at="2021-07-10T09:43:41Z" finished-at="2021-07-10T09:43:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyContactUs4 -->
-      </class> <!-- contactUsTest.ContactUsClass -->
-    </test> <!-- Contact Us Test -->
+        </test-method> <!-- verifySearchByDress -->
+        <test-method status="PASS" signature="verifySearchByHat()[pri:0, instance:searchTest.ValidProductSearch@1936f0f5]" name="verifySearchByHat" duration-ms="6899" started-at="2021-07-10T09:43:47Z" finished-at="2021-07-10T09:43:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByHat -->
+      </class> <!-- searchTest.ValidProductSearch -->
+    </test> <!-- Search display -->
   </suite> <!-- Regression -->
 </testng-results>
