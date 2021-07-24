@@ -5,19 +5,19 @@
   <listeners>
     <listener class-name="testng_listener.Listener"/>
   </listeners>
-  <test name="Overview page Test(failed)">
+  <test name="Search display(failed)">
     <classes>
       <class name="searchTest.ValidProductSearch">
         <methods>
+          <include name="shoppingCart"/>
           <include name="init"/>
         </methods>
       </class> <!-- searchTest.ValidProductSearch -->
       <class name="overviewPage.OverviewDisplayTest">
         <methods>
           <include name="init"/>
-          <include name="catalogDisplay"/>
         </methods>
       </class> <!-- overviewPage.OverviewDisplayTest -->
     </classes>
-  </test> <!-- Overview page Test(failed) -->
+  </test> <!-- Search display(failed) -->
 </suite> <!-- Failed suite [Regression] -->

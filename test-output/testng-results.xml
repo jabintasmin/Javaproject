@@ -1,40 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression" duration-ms="36833" started-at="2021-07-10T13:43:17Z" finished-at="2021-07-10T13:43:54Z">
+  <suite name="Regression" duration-ms="8794" started-at="2021-07-24T00:24:58Z" finished-at="2021-07-24T00:25:07Z">
     <groups>
     </groups>
-    <test name="Overview page Test" duration-ms="15712" started-at="2021-07-10T13:43:17Z" finished-at="2021-07-10T13:43:33Z">
-      <class name="overviewPage.OverviewDisplayTest">
-        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:overviewPage.OverviewDisplayTest@735f7ae5]" name="init" is-config="true" duration-ms="11148" started-at="2021-07-10T09:43:17Z" finished-at="2021-07-10T09:43:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="topsButtonDisplay()[pri:0, instance:overviewPage.OverviewDisplayTest@735f7ae5]" name="topsButtonDisplay" duration-ms="2247" started-at="2021-07-10T09:43:28Z" finished-at="2021-07-10T09:43:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- topsButtonDisplay -->
-        <test-method status="PASS" signature="casualDressesDisplay()[pri:0, instance:overviewPage.OverviewDisplayTest@735f7ae5]" name="casualDressesDisplay" duration-ms="2169" started-at="2021-07-10T09:43:31Z" finished-at="2021-07-10T09:43:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- casualDressesDisplay -->
-        <test-method status="PASS" signature="catalogDisplay()[pri:0, instance:overviewPage.OverviewDisplayTest@735f7ae5]" name="catalogDisplay" duration-ms="135" started-at="2021-07-10T09:43:33Z" finished-at="2021-07-10T09:43:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- catalogDisplay -->
-      </class> <!-- overviewPage.OverviewDisplayTest -->
-    </test> <!-- Overview page Test -->
-    <test name="Search display" duration-ms="21097" started-at="2021-07-10T13:43:33Z" finished-at="2021-07-10T13:43:54Z">
+    <test name="Search display" duration-ms="8794" started-at="2021-07-24T00:24:58Z" finished-at="2021-07-24T00:25:07Z">
       <class name="searchTest.ValidProductSearch">
-        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:searchTest.ValidProductSearch@1936f0f5]" name="init" is-config="true" duration-ms="8280" started-at="2021-07-10T09:43:33Z" finished-at="2021-07-10T09:43:41Z">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:searchTest.ValidProductSearch@4e04a765]" name="init" is-config="true" duration-ms="4737" started-at="2021-07-23T20:24:58Z" finished-at="2021-07-23T20:25:03Z">
           <params>
             <param index="0">
               <value>
@@ -45,14 +18,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifySearchByDress()[pri:0, instance:searchTest.ValidProductSearch@1936f0f5]" name="verifySearchByDress" duration-ms="5917" started-at="2021-07-10T09:43:41Z" finished-at="2021-07-10T09:43:47Z">
+        <test-method status="PASS" signature="verifySearchByDress()[pri:0, instance:searchTest.ValidProductSearch@4e04a765]" name="verifySearchByDress" duration-ms="1193" started-at="2021-07-23T20:25:03Z" finished-at="2021-07-23T20:25:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchByDress -->
-        <test-method status="PASS" signature="verifySearchByHat()[pri:0, instance:searchTest.ValidProductSearch@1936f0f5]" name="verifySearchByHat" duration-ms="6899" started-at="2021-07-10T09:43:47Z" finished-at="2021-07-10T09:43:54Z">
+        <test-method status="PASS" signature="dressAddToCart()[pri:0, instance:searchTest.ValidProductSearch@4e04a765]" name="dressAddToCart" duration-ms="2196" started-at="2021-07-23T20:25:04Z" finished-at="2021-07-23T20:25:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySearchByHat -->
+        </test-method> <!-- dressAddToCart -->
+        <test-method status="PASS" signature="shoppingCartCheckOut()[pri:0, instance:searchTest.ValidProductSearch@4e04a765]" name="shoppingCartCheckOut" duration-ms="656" started-at="2021-07-23T20:25:06Z" finished-at="2021-07-23T20:25:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingCartCheckOut -->
       </class> <!-- searchTest.ValidProductSearch -->
     </test> <!-- Search display -->
   </suite> <!-- Regression -->

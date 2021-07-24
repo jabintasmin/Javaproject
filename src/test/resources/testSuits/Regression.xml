@@ -5,33 +5,36 @@
         <listener class-name="testng_listener.Listener"></listener>
     </listeners>
     <parameter name="browser" value="chrome"></parameter>
-    <test name="Overview page Test">
-        <classes>
-            <class name="overviewPage.OverviewDisplayTest">
-                <methods>
+<!--    <test name="Overview page Test">-->
+<!--        <classes>-->
+<!--            <class name="overviewPage.OverviewDisplayTest">-->
+<!--                <methods>-->
 
 
-                    <include name="topsButtonDisplay"/>
-                    <include name="casualDressesDisplay"/>
-                    <include name="catalogDisplay"/>
+<!--                    <include name="topsButtonDisplay"/>-->
+<!--                    <include name="casualDressesDisplay"/>-->
+<!--                    <include name="catalogDisplay"/>-->
 
 
 
-                </methods>
 
-            </class>
+<!--                </methods>-->
+
+<!--            </class>-->
 
 
-        </classes>
+<!--        </classes>-->
 
-    </test>
+<!--    </test>-->
     <test
     verbose="2" preserve-order="true" name="Search display">
         <classes>
             <class name="searchTest.ValidProductSearch">
                 <methods>
                     <include name="verifySearchByDress"/>
-                    <include name="verifySearchByHat"/>
+                    <include name="dressAddToCart"/>
+                    <include name="shoppingCartCheckOut"/>
+
 
                 </methods>
             </class>
