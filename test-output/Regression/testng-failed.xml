@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
-  <parameter name="browser" value="chrome"/>
+  <parameter name="browser" value="docker"/>
   <listeners>
     <listener class-name="testng_listener.Listener"/>
   </listeners>
   <test name="Search display(failed)">
     <classes>
-      <class name="searchTest.ValidProductSearch">
-        <methods>
-          <include name="shoppingCart"/>
-          <include name="init"/>
-        </methods>
-      </class> <!-- searchTest.ValidProductSearch -->
       <class name="overviewPage.OverviewDisplayTest">
         <methods>
+          <include name="newProductsTestDisplayed"/>
           <include name="init"/>
+          <include name="verifySpecialTextDisplayed"/>
         </methods>
       </class> <!-- overviewPage.OverviewDisplayTest -->
     </classes>

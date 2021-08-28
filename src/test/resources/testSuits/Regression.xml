@@ -4,42 +4,41 @@
     <listeners>
         <listener class-name="testng_listener.Listener"></listener>
     </listeners>
-    <parameter name="browser" value="chrome"></parameter>
-<!--    <test name="Overview page Test">-->
-<!--        <classes>-->
-<!--            <class name="overviewPage.OverviewDisplayTest">-->
-<!--                <methods>-->
-
-
-<!--                    <include name="topsButtonDisplay"/>-->
-<!--                    <include name="casualDressesDisplay"/>-->
-<!--                    <include name="catalogDisplay"/>-->
-
-
-
-
-<!--                </methods>-->
-
-<!--            </class>-->
-
-
-<!--        </classes>-->
-
-<!--    </test>-->
+    <parameter name="browser" value="docker"></parameter>
     <test
-    verbose="2" preserve-order="true" name="Search display">
+            verbose="2" preserve-order="true" name="Search display">
         <classes>
-            <class name="searchTest.ValidProductSearch">
-                <methods>
-                    <include name="verifySearchByDress"/>
-                    <include name="dressAddToCart"/>
-                    <include name="shoppingCartCheckOut"/>
+        <class name="overviewPage.OverviewDisplayTest">
+       <methods>
+             <include name="verifySpecialTextDisplayed"/>
+               <include name="newProductsTestDisplayed"/>
 
 
-                </methods>
-            </class>
+
+
+
+                    </methods>
+
+               </class>
+
+
         </classes>
-    </test>
+
+       </test>
+       <!-- <test
+        verbose="2" preserve-order="true" name="Search display">
+            <classes>
+                <class name="searchTest.ValidProductSearch">
+                    <methods>
+                        <include name="verifySearchByDress"/>
+                        <include name="dressAddToCart"/>
+                        <include name="shoppingCartCheckOut"/>
+
+
+                    </methods>
+                </class>
+            </classes>
+        </test>-->
 
 
 <!--    <test-->

@@ -1,36 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
+    <line>
+      <![CDATA[<a href='/Users/jabinuttora/IdeaProjects/Javaprtoject2/src/main/java/success_screenshots/verifySpecialTextDisplayed_28_08_2021_12_05_55.png'> <image src='/Users/jabinuttora/IdeaProjects/Javaprtoject2/src/main/java/success_screenshots/verifySpecialTextDisplayed_28_08_2021_12_05_55.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='/Users/jabinuttora/IdeaProjects/Javaprtoject2/src/main/java/success_screenshots/newProductsTestDisplayed_28_08_2021_12_05_56.png'> <image src='/Users/jabinuttora/IdeaProjects/Javaprtoject2/src/main/java/success_screenshots/newProductsTestDisplayed_28_08_2021_12_05_56.png' height='100' width='100'/> </a>]]>
+    </line>
   </reporter-output>
-  <suite name="Regression" duration-ms="8794" started-at="2021-07-24T00:24:58Z" finished-at="2021-07-24T00:25:07Z">
+  <suite name="Regression" duration-ms="11225" started-at="2021-08-28T04:05:46Z" finished-at="2021-08-28T04:05:57Z">
     <groups>
     </groups>
-    <test name="Search display" duration-ms="8794" started-at="2021-07-24T00:24:58Z" finished-at="2021-07-24T00:25:07Z">
-      <class name="searchTest.ValidProductSearch">
-        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:searchTest.ValidProductSearch@4e04a765]" name="init" is-config="true" duration-ms="4737" started-at="2021-07-23T20:24:58Z" finished-at="2021-07-23T20:25:03Z">
+    <test name="Search display" duration-ms="11225" started-at="2021-08-28T04:05:46Z" finished-at="2021-08-28T04:05:57Z">
+      <class name="overviewPage.OverviewDisplayTest">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:overviewPage.OverviewDisplayTest@6fb554cc]" name="init" is-config="true" duration-ms="8518" started-at="2021-08-28T00:05:46Z" finished-at="2021-08-28T00:05:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[docker]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="verifySearchByDress()[pri:0, instance:searchTest.ValidProductSearch@4e04a765]" name="verifySearchByDress" duration-ms="1193" started-at="2021-07-23T20:25:03Z" finished-at="2021-07-23T20:25:04Z">
+        <test-method status="PASS" signature="verifySpecialTextDisplayed()[pri:0, instance:overviewPage.OverviewDisplayTest@6fb554cc]" name="verifySpecialTextDisplayed" duration-ms="387" started-at="2021-08-28T00:05:54Z" finished-at="2021-08-28T00:05:55Z">
           <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/jabinuttora/IdeaProjects/Javaprtoject2/src/main/java/success_screenshots/verifySpecialTextDisplayed_28_08_2021_12_05_55.png'> <image src='/Users/jabinuttora/IdeaProjects/Javaprtoject2/src/main/java/success_screenshots/verifySpecialTextDisplayed_28_08_2021_12_05_55.png' height='100' width='100'/> </a>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verifySearchByDress -->
-        <test-method status="PASS" signature="dressAddToCart()[pri:0, instance:searchTest.ValidProductSearch@4e04a765]" name="dressAddToCart" duration-ms="2196" started-at="2021-07-23T20:25:04Z" finished-at="2021-07-23T20:25:06Z">
+        </test-method> <!-- verifySpecialTextDisplayed -->
+        <test-method status="PASS" signature="newProductsTestDisplayed()[pri:0, instance:overviewPage.OverviewDisplayTest@6fb554cc]" name="newProductsTestDisplayed" duration-ms="129" started-at="2021-08-28T00:05:56Z" finished-at="2021-08-28T00:05:56Z">
           <reporter-output>
+            <line>
+              <![CDATA[<a href='/Users/jabinuttora/IdeaProjects/Javaprtoject2/src/main/java/success_screenshots/newProductsTestDisplayed_28_08_2021_12_05_56.png'> <image src='/Users/jabinuttora/IdeaProjects/Javaprtoject2/src/main/java/success_screenshots/newProductsTestDisplayed_28_08_2021_12_05_56.png' height='100' width='100'/> </a>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- dressAddToCart -->
-        <test-method status="PASS" signature="shoppingCartCheckOut()[pri:0, instance:searchTest.ValidProductSearch@4e04a765]" name="shoppingCartCheckOut" duration-ms="656" started-at="2021-07-23T20:25:06Z" finished-at="2021-07-23T20:25:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shoppingCartCheckOut -->
-      </class> <!-- searchTest.ValidProductSearch -->
+        </test-method> <!-- newProductsTestDisplayed -->
+      </class> <!-- overviewPage.OverviewDisplayTest -->
     </test> <!-- Search display -->
   </suite> <!-- Regression -->
 </testng-results>
