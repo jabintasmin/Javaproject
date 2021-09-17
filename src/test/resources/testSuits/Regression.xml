@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Regression">
-    <listeners>
+    <!--<listeners>
         <listener class-name="testng_listener.Listener"></listener>
     </listeners>
     <parameter name="browser" value="docker"></parameter>
     <test
             verbose="2" preserve-order="true" name="Search display">
         <classes>
-        <class name="overviewPage.OverviewDisplayTest">
-       <methods>
+        <class name="overviewPage.OverviewDisplayTest">-->
+    <listeners>
+        <listener class-name="extentList.ExtentListener"></listener>
+    </listeners>
+    <parameter name="browser" value="Docker"></parameter>
+    <test name="LoginTest">
+        <classes>
+            <class name="validLoginTest.LoginTest">
+                <methods>
+                    <include name="verifyLogInInputProperly"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+      <!-- <methods>
              <include name="verifySpecialTextDisplayed"/>
                <include name="newProductsTestDisplayed"/>
 
@@ -24,7 +37,7 @@
 
         </classes>
 
-       </test>
+       </test>-->
        <!-- <test
         verbose="2" preserve-order="true" name="Search display">
             <classes>
